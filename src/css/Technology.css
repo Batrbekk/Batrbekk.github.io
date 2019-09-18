@@ -1,0 +1,29 @@
+.techno-box {
+  max-width: 100%;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18%;
+}
+.techno-box img {
+  width: 48px;
+  height: 16px;
+}
+
+@media (max-width: 376px) {
+  .techno-box {
+    grid-gap: 15px;
+  }
+  .techno-box img {
+    width: 45px;
+    height: 13px;
+  }
+}
+@media (max-width: 415px) {
+  .techno-box {
+    grid-gap: 15px;
+  }
+  .techno-box img {
+    width: 45px;
+    height: 13px;
+  }
+}

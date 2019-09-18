@@ -1,0 +1,57 @@
+.contact-box {
+  max-width: 100%;
+  max-height: 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.contact-box img {
+  width: 14px;
+  height: 14px;
+}
+.address,
+.number {
+  display: grid;
+  grid-template-columns: 6% 94%;
+}
+.address p,
+.number p {
+  margin-block-start: 1.5%;
+  margin-block-end: 0px;
+}
+.address p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #fff;
+  text-decoration: underline;
+}
+.number p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #fff;
+}
+
+@media (max-width: 376px) {
+  .number,
+  .address {
+    grid-template-columns: 10% 90%;
+  }
+  .number {
+    margin-block-start: 3%;
+  }
+}
+
+@media (max-width: 415px) {
+  .number,
+  .address {
+    grid-template-columns: 10% 90%;
+  }
+  .number {
+    margin-block-start: 3%;
+  }
+}

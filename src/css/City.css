@@ -1,0 +1,15 @@
+.city p {
+  text-align: center;
+  background-color: #4e4e4e;
+  border: 1px solid #4e4e4e;
+  border-radius: 22px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+  color: #dddddd;
+  padding: 2px 0px;
+}

@@ -1,0 +1,72 @@
+.card {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-column-gap: 3%;
+}
+.img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.cinema-data {
+  display: grid;
+  grid-template-rows: 15% 20% 20% 30% 15%;
+}
+.cinema-data .cinema-session {
+  margin-block-start: 1.8%;
+}
+.cinema-data .cinema-technology,
+.cinema-data .cinema-contact {
+  margin-block-start: 2%;
+}
+.cinema-city {
+  width: 20%;
+}
+.cinema-session {
+  width: 30%;
+}
+
+@media (max-width: 376px) {
+  .card {
+    grid-template-columns: 35% 65%;
+  }
+  .img img {
+    width: 110px;
+    height: 187px;
+  }
+  .cinema-city {
+    width: 30%;
+  }
+  .cinema-session {
+    width: 100%;
+  }
+  .cinema-data {
+    margin-inline-end: 10%;
+  }
+}
+
+@media (max-width: 321px) {
+  .cinema-city {
+    width: 30%;
+  }
+  .cinema-session {
+    width: 95%;
+  }
+}
+
+@media (max-width: 415px) {
+  .card {
+    grid-template-columns: 35% 65%;
+  }
+  .img img {
+    width: 120px;
+    height: 187px;
+  }
+  .cinema-city {
+    width: 30%;
+  }
+  .cinema-session {
+    width: 100%;
+  }
+}
